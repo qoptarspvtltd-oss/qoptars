@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Qoptars | Software engineering studio</title>
+<meta name="description" content="Qoptars builds precise, fast, well-made software for teams that care how it works and how it feels.">
+<meta name="theme-color" content="#080b0a">
+<meta name="color-scheme" content="dark">
+<link rel="preload" href="fonts/geist.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="img/hero.webp" as="image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%2711%27 fill=%27none%27 stroke=%27%233ddc97%27 stroke-width=%273%27/%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%274%27 fill=%27%233ddc97%27/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#top" aria-label="Qoptars home"><span class="brand-mark" aria-hidden="true"></span>Qoptars</a>
+  <nav aria-label="Primary">
+    <a href="#services">Services</a>
+    <a href="#process">Process</a>
+    <a href="#work">Work</a>
+    <a href="#principles">Principles</a>
+  </nav>
+  <a class="btn btn-sm" href="#contact" data-magnetic>Start a project</a>
+</header>
+
+<main id="main">
+
+  <section class="hero" id="top">
+    <div class="hero-copy">
+      <p class="eyebrow reveal">Software engineering studio</p>
+      <h1 class="reveal" style="--d:.08s">Software that holds its focus.</h1>
+      <p class="lede reveal" style="--d:.16s">We design and build fast, dependable products for teams that care how they work and how they feel.</p>
+      <div class="cta-row reveal" style="--d:.24s">
+        <a class="btn" href="#contact" data-magnetic>Start a project</a>
+        <a class="btn btn-ghost" href="#work">See the work</a>
+      </div>
+    </div>
+    <figure class="hero-art reveal" style="--d:.1s">
+      <img src="img/hero.webp" width="1600" height="1400" alt="Concentric interference rings of green light fading into darkness" fetchpriority="high" data-parallax>
+    </figure>
+  </section>
+
+  <section class="logos-strip" aria-label="What we build with">
+    <ul>
+      <li>TypeScript</li><li>Rust</li><li>Postgres</li><li>React</li><li>Python</li><li>Kubernetes</li>
+    </ul>
+  </section>
+
+  <section class="section" id="services">
+    <h2 class="reveal">Five ways we help.</h2>
+    <div class="bento">
+      <article class="tile t-a reveal">
+        <img src="img/beam.webp" width="1200" height="1200" alt="" loading="lazy">
+        <div class="tile-body">
+          <h3>Product engineering</h3>
+          <p>From first prototype to production, one team owns the build.</p>
+        </div>
+      </article>
+      <article class="tile t-b reveal" style="--d:.06s">
+        <h3>Platform &amp; infrastructure</h3>
+        <p>Pipelines, observability and cloud foundations that stay out of the way.</p>
+      </article>
+      <article class="tile t-c reveal" style="--d:.12s">
+        <img src="img/moire.webp" width="1200" height="900" alt="" loading="lazy">
+        <div class="tile-body">
+          <h3>Performance work</h3>
+          <p>We find the slow path and remove it.</p>
+        </div>
+      </article>
+      <article class="tile t-d reveal" style="--d:.06s">
+        <h3>Interface design</h3>
+        <p>Clear hierarchy, honest motion, accessible by default.</p>
+      </article>
+      <article class="tile t-e tile-accent reveal" style="--d:.12s">
+        <h3>Technical audits</h3>
+        <p>A short, frank review of your code, architecture and delivery.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section process" id="process">
+    <h2 class="reveal">How a project runs.</h2>
+    <ol class="steps">
+      <li class="step reveal"><span class="step-n">01</span><div><h3>Listen</h3><p>We learn the problem, the users and the constraints before proposing anything.</p></div></li>
+      <li class="step reveal"><span class="step-n">02</span><div><h3>Shape</h3><p>A small written plan: scope, risks and the first thing we will ship.</p></div></li>
+      <li class="step reveal"><span class="step-n">03</span><div><h3>Build</h3><p>Short cycles. Working software in your hands every week.</p></div></li>
+      <li class="step reveal"><span class="step-n">04</span><div><h3>Hand over</h3><p>Documentation, runbooks and a team that can carry on without us.</p></div></li>
+    </ol>
+  </section>
+
+  <section class="band" aria-label="Featured statement">
+    <img src="img/band.webp" width="2000" height="760" alt="" loading="lazy">
+    <blockquote class="reveal">
+      <p>Small teams, careful work, software that is still easy to change in five years.</p>
+    </blockquote>
+  </section>
+
+  <section class="section" id="work">
+    <h2 class="reveal">What we make.</h2>
+    <p class="note reveal">Example engagements. Real case studies are shared under NDA on request.</p>
+    <ul class="rail" tabindex="0" aria-label="Example engagements, scroll horizontally">
+      <li class="card"><span class="tag">Fintech</span><h3>Ledger service rewrite</h3><p>Moved a monolithic ledger to an event-sourced service with a safe, staged cutover.</p></li>
+      <li class="card"><span class="tag">Health</span><h3>Clinician scheduling</h3><p>A fast scheduling interface designed around keyboard use and low-bandwidth clinics.</p></li>
+      <li class="card"><span class="tag">Logistics</span><h3>Route planning engine</h3><p>Constraint solver and API serving planners, tuned for predictable latency.</p></li>
+      <li class="card"><span class="tag">Developer tools</span><h3>Build pipeline overhaul</h3><p>Cut a flaky multi-hour pipeline into reliable, cacheable stages.</p></li>
+      <li class="card"><span class="tag">Commerce</span><h3>Storefront performance</h3><p>Rendering and image work that made a heavy catalogue feel instant.</p></li>
+    </ul>
+  </section>
+
+  <section class="section principles" id="principles">
+    <h2 class="reveal">What we hold to.</h2>
+    <div class="pr-grid">
+      <article class="pr reveal"><h3>Precision over volume</h3><p>Fewer features, built correctly, beat a long list built loosely.</p></article>
+      <article class="pr reveal" style="--d:.06s"><h3>Plain communication</h3><p>You always know what is done, what is next and what is risky.</p></article>
+      <article class="pr reveal" style="--d:.12s"><h3>You own everything</h3><p>Code, infrastructure and documentation are yours from day one.</p></article>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div class="contact-copy">
+      <h2 class="reveal">Tell us what you are building.</h2>
+      <p class="reveal" style="--d:.08s">Share a few lines. We reply within two working days.</p>
+    </div>
+    <form class="form reveal" id="form" novalidate style="--d:.1s">
+      <div class="field">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" autocomplete="name" required aria-describedby="name-h name-e">
+        <p class="help" id="name-h">How should we address you?</p>
+        <p class="err" id="name-e" role="alert"></p>
+      </div>
+      <div class="field">
+        <label for="email">Work email</label>
+        <input id="email" name="email" type="email" autocomplete="email" spellcheck="false" required aria-describedby="email-h email-e">
+        <p class="help" id="email-h">We only use this to reply.</p>
+        <p class="err" id="email-e" role="alert"></p>
+      </div>
+      <div class="field">
+        <label for="msg">Project details</label>
+        <textarea id="msg" name="msg" rows="4" required aria-describedby="msg-h msg-e"></textarea>
+        <p class="help" id="msg-h">Goals, timeline and anything that worries you.</p>
+        <p class="err" id="msg-e" role="alert"></p>
+      </div>
+      <button class="btn" type="submit" data-magnetic>Send message</button>
+      <p class="status" id="status" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+</main>
+
+<footer class="footer">
+  <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true"></span>Qoptars</a>
+  <p>&copy; <span id="yr">2026</span> Qoptars Pvt Ltd. All rights reserved.</p>
+</footer>
+
+<script src="main.js" defer></script>
+</body>
+</html>
